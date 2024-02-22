@@ -1,0 +1,99 @@
+.wrapper {}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 600px;
+    position: relative;
+}
+
+.photoContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    z-index: 2;
+    width: 60%;
+    position: relative;
+    align-self: center;
+    box-shadow: 0px 0px 39px 20px rgba(255, 255, 255, 0.2)
+}
+
+.photoShadow {
+    z-index: 1;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    align-self: center;
+    filter: blur(16px);
+}
+
+.flowerscircle {
+    z-index: 2;
+    max-width: 100%;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+}
+
+.name {
+    z-index: 4;
+}
+
+.arrowbutton {
+    display: none;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1300px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        top: -10%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 100%;
+    }
+
+    .photo {
+        width: 80%;
+    }
+
+    .photoShadow {
+        width: 80%;
+    }
+
+    .flowerscirclecontainer {
+        z-index: 2;
+        aspect-ratio: 1;
+        width: 100%;
+        position: absolute;
+        /* top: 60%; */
+        /* left: 3px; */
+    }
+
+    .flowerscirclecontainer {
+        width: 120%;
+        /* left: 3px; */
+    }
+
+    .arrowbutton {
+        z-index: 4;
+        display: block;
+        position: relative;
+        bottom: 10%;
+    }
+}
