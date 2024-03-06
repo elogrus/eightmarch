@@ -14,6 +14,7 @@ import AldohinaKatya from "./postcards/AldohinaKatya/AldohinaKatya";
 import Marina from "./postcards/Marina/Marina";
 import SokolovaDasha from "./postcards/SokolovaDasha/SokolovaDasha";
 import Sarvinoz from "./postcards/Sarvinoz/Sarvinoz";
+import Redirect from "./routes/redirect";
 const router = createHashRouter([
     {
         path: "/",
@@ -61,9 +62,9 @@ const router = createHashRouter([
         element: <SokolovaDasha />,
     },
     {
-        path: "/sarvinoz",
+        path: "/podarokk",
         errorElement: <Notfound />,
-        element: <Sarvinoz />,
+        element: <Redirect />,
     },
 ]);
 
