@@ -10,7 +10,7 @@ import photo from "./zenkovadasha.png";
 const ZenkovaDasha = () => {
     return (
         <FloatingBackground
-            bgcolors={["#B61210", "blue"]}
+            bgcolors={["#ffc500","#c21500"]}
             imgs={[Burger, Glasses]}
             repeatCountImgs={Math.floor(window.innerWidth / 100) * 2}> 
             <div className={styles.container}>

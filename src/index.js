@@ -11,6 +11,9 @@ import Liza from "./postcards/Liza/Liza";
 import KatyaVasilyeva from "./postcards/KatyaVasilyeva/KatyaVasilyeva";
 import Vika from "./postcards/Vika/Vika";
 import AldohinaKatya from "./postcards/AldohinaKatya/AldohinaKatya";
+import Marina from "./postcards/Marina/Marina";
+import SokolovaDasha from "./postcards/SokolovaDasha/SokolovaDasha";
+import Sarvinoz from "./postcards/Sarvinoz/Sarvinoz";
 const router = createHashRouter([
     {
         path: "/",
@@ -46,6 +49,21 @@ const router = createHashRouter([
         path: "/aldohinakatya",
         errorElement: <Notfound />,
         element: <AldohinaKatya />,
+    },
+    {
+        path: "/marina",
+        errorElement: <Notfound />,
+        element: <Marina />,
+    },
+    {
+        path: "/sokolovadasha",
+        errorElement: <Notfound />,
+        element: <SokolovaDasha />,
+    },
+    {
+        path: "/sarvinoz",
+        errorElement: <Notfound />,
+        element: <Sarvinoz />,
     },
 ]);
 
