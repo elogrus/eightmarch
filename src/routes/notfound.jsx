@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Background from "../modules/Background/Background";
+import Background from "../modules/Backgrounds/BaseBackground/BaseBackground";
 
 const Notfound = () => {
     return (

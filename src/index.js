@@ -1,21 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import Notfound from "./routes/notfound";
 import "./styles.css";
-import DubkoDasha from "./postcards/DubkoDasha/DubkoDasha";
-const router = createBrowserRouter([
+import ZenkovaDasha from "./postcards/ZenkovaDasha/ZenkovaDasha";
+const router = createHashRouter([
     {
         path: "/",
         errorElement: <Notfound />,
         element: <Root />,
     },
     {
-        path: "dubkodasha",
+        path: "/zenkovadasha",
         errorElement: <Notfound />,
-        element: <DubkoDasha />,
+        element: <ZenkovaDasha />,
     },
 ]);
 

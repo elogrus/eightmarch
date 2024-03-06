@@ -4,7 +4,6 @@ const Name = ({ children, className, ...props }) => {
     return (
         <div className={styles.container + " " + className} {...props}>
             <p className={styles.name}>{children}</p>;
-            <div className={styles.bg}></div>
         </div>
     );
 };

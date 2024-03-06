@@ -6,7 +6,10 @@ const FlowerCircle = (props) => (
     style={{
       enableBackground: "new 0 0 500 500",
     }}
-    viewBox="0 0 500 500"
+    width={481}
+    height={295}
+    
+    // viewBox="0 0 481 350"
     {...props}
   >
     <path

@@ -12,10 +12,6 @@ const PhotoWithName = ({
             <div className={styles.container}>
                 <div className={styles.photoContainer}>
                     <img className={styles.photo} src={photoSrc} />
-                    <img className={styles.photoShadow} src={photoSrc} />
-                    <div className={styles.flowerscirclecontainer}>
-                        <FlowersCircle className={styles.flowerscircle} />
-                    </div>
                 </div>
 
                 <Name className={styles.name}>{name}</Name>
