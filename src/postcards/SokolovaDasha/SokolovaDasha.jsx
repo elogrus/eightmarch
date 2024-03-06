@@ -4,21 +4,29 @@ import PhotoWithName from "../../modules/PhotoWithName/PhotoWithName";
 import { Felicitation } from "../../modules/Felicitation";
 import FloatingBackground from "../../modules/Backgrounds/FloatingBackground/FloatingBackground";
 import photo from "./SokolovaDasha.jpg";
-import Draw from "../../modules/Assets/Draw";
 import Painting from "../../modules/Assets/Painting";
+import Chess from "../../modules/Assets/Chess";
+import HideFace from "../../modules/Assets/HideFace";
 const SokolovaDasha = () => {
     return (
         <FloatingBackground
             bgcolors={["#eaafc8", "#654ea3"]}
-            imgs={[Draw, Painting]}
+            imgs={[Chess, HideFace]}
             repeatCountImgs={Math.floor(window.innerWidth / 100) * 2}>
             <div className={styles.container}>
-                <PhotoWithName photoSrc={photo} name="Соколова Даша" />
+                <PhotoWithName photoSrc={photo} name="Даша" />
                 <Felicitation
-                    title="Заголовок"
+                    title="Поздравляем тебя с Международным женским днем!"
                     bgcolor="white"
                     textcolor="black"
-                    text="Таким образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития. Задача организации, в особенности же консультация с широким активом играет важную роль в формировании направлений прогрессивного развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации дальнейших направлений развития. Товарищи! новая модель организационной деятельности требуют определения и уточнения соответствующий условий активизации. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание новых предложений."
+                    text="С 8 Марта поздравляю!
+Буйной нежности желаю,
+Больше шумного разврата
+И в постели, и в зарплате.
+Пусть соблазны покорятся,
+Чтоб хотелось улыбаться,
+Жизнь нескучно пусть течет,
+И во всем всегда везет!"
                 />
             </div>
         </FloatingBackground>

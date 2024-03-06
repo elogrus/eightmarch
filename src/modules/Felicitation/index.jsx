@@ -1,21 +1,21 @@
 import TelegramButton from "../TelegramButton/TelegramButton";
 import styles from "./styles.module.css";
 
-export const Felicitation = ({ title, text, bgcolor, textcolor }) => {
-    title = "Заголовок";
-    bgcolor = "white";
-    textcolor = 'black';
-    text =
-        "Таким образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития. Задача организации, в особенности же консультация с широким активом играет важную роль в формировании направлений прогрессивного развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации дальнейших направлений развития. Товарищи! новая модель организационной деятельности требуют определения и уточнения соответствующий условий активизации. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание новых предложений.";
-
+export const Felicitation = ({
+    title,
+    text,
+    bgcolor = "white",
+    textcolor = "black",
+    needButton = true
+}) => {
     return (
         <div
             id="felicitation"
             className={styles.container}
-            style={{ backgroundColor: bgcolor, color: textcolor }}>
+            style={{ backgroundColor: bgcolor, color: textcolor, whiteSpace: 'pre-wrap' }}>
             <p className={styles.title}>{title}</p>
             <p className={styles.text}>{text}</p>
-            <TelegramButton className={styles.button}/>
+            {needButton && <TelegramButton className={styles.button} />}
         </div>
     );
 };

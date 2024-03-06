@@ -5,24 +5,20 @@ import { Felicitation } from "../../modules/Felicitation";
 import FloatingBackground from "../../modules/Backgrounds/FloatingBackground/FloatingBackground";
 import Burger from "../../modules/Assets/Burger";
 import Glasses from "../../modules/Assets/Glasses";
-import TelegramButton from "../../modules/TelegramButton/TelegramButton";
 import photo from "./zenkovadasha.png";
 const ZenkovaDasha = () => {
     return (
         <FloatingBackground
-            bgcolors={["#ffc500","#c21500"]}
+            bgcolors={["#EDDE5D", "#F09819"]}
             imgs={[Burger, Glasses]}
-            repeatCountImgs={Math.floor(window.innerWidth / 100) * 2}> 
+            repeatCountImgs={Math.floor(window.innerWidth / 100) * 2}>
             <div className={styles.container}>
-                <PhotoWithName
-                    photoSrc={photo}
-                    name="Зенкова Дарья"
-                />
+                <PhotoWithName photoSrc={photo} name="Даша" />
                 <Felicitation
-                    title="Заголовок"
+                    title="Поздравляем тебя с Международным женским днем!"
                     bgcolor="white"
                     textcolor="black"
-                    text="Таким образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития. Задача организации, в особенности же консультация с широким активом играет важную роль в формировании направлений прогрессивного развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации дальнейших направлений развития. Товарищи! новая модель организационной деятельности требуют определения и уточнения соответствующий условий активизации. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание новых предложений."
+                    text="Почаще ослепляй нас своей улыбкой."
                 />
             </div>
         </FloatingBackground>
