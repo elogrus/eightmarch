@@ -17,7 +17,7 @@ import Sarvinoz from "./postcards/Sarvinoz/Sarvinoz";
 import Redirect from "./routes/redirect";
 const router = createHashRouter([
     {
-        path: "/",
+        path: "/linkssss",
         errorElement: <Notfound />,
         element: <Root />,
     },
