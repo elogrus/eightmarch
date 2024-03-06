@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eightmarch/static/css/main.c9629c26.css",
-    "main.js": "/eightmarch/static/js/main.1e3f24b5.js",
+    "main.js": "/eightmarch/static/js/main.5bc26f5c.js",
     "static/js/453.7d450562.chunk.js": "/eightmarch/static/js/453.7d450562.chunk.js",
     "static/media/Marina.jpg": "/eightmarch/static/media/Marina.cbd229bd6e39f7faa279.jpg",
     "static/media/SokolovaDasha.jpg": "/eightmarch/static/media/SokolovaDasha.fd893d22acbdc24f5442.jpg",
@@ -14,11 +14,11 @@
     "static/media/KatyaVasilyeva.jpg": "/eightmarch/static/media/KatyaVasilyeva.589f6de557858de08427.jpg",
     "index.html": "/eightmarch/index.html",
     "main.c9629c26.css.map": "/eightmarch/static/css/main.c9629c26.css.map",
-    "main.1e3f24b5.js.map": "/eightmarch/static/js/main.1e3f24b5.js.map",
+    "main.5bc26f5c.js.map": "/eightmarch/static/js/main.5bc26f5c.js.map",
     "453.7d450562.chunk.js.map": "/eightmarch/static/js/453.7d450562.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9629c26.css",
-    "static/js/main.1e3f24b5.js"
+    "static/js/main.5bc26f5c.js"
   ]
 }
