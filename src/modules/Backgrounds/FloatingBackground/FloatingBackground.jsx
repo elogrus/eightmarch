@@ -17,7 +17,7 @@ const FloatingBackground = ({
     }
 
     return (
-        <div className={styles.background} style={{ backgroundImage: "linear-gradient(#ec3521, #450101)" }}>
+        <div className={styles.background} style={{ backgroundImage: `linear-gradient(${bgcolors.join(', ')})` }}>
             {children}
 
             <div className={styles.wrap}>{imgsList}</div>

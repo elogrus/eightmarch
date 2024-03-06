@@ -6,6 +6,11 @@ import Root from "./routes/root";
 import Notfound from "./routes/notfound";
 import "./styles.css";
 import ZenkovaDasha from "./postcards/ZenkovaDasha/ZenkovaDasha";
+import DubkoDasha from "./postcards/DubkoDasha/DubkoDasha";
+import Liza from "./postcards/Liza/Liza";
+import KatyaVasilyeva from "./postcards/KatyaVasilyeva/KatyaVasilyeva";
+import Vika from "./postcards/Vika/Vika";
+import AldohinaKatya from "./postcards/AldohinaKatya/AldohinaKatya";
 const router = createHashRouter([
     {
         path: "/",
@@ -16,6 +21,31 @@ const router = createHashRouter([
         path: "/zenkovadasha",
         errorElement: <Notfound />,
         element: <ZenkovaDasha />,
+    },
+    {
+        path: "/dubkodasha",
+        errorElement: <Notfound />,
+        element: <DubkoDasha />,
+    },
+    {
+        path: "/liza",
+        errorElement: <Notfound />,
+        element: <Liza />,
+    },
+    {
+        path: "/katyavasilyeva",
+        errorElement: <Notfound />,
+        element: <KatyaVasilyeva />,
+    },
+    {
+        path: "/vika",
+        errorElement: <Notfound />,
+        element: <Vika />,
+    },
+    {
+        path: "/aldohinakatya",
+        errorElement: <Notfound />,
+        element: <AldohinaKatya />,
     },
 ]);
 

@@ -6,8 +6,10 @@ import FloatingBackground from "../../modules/Backgrounds/FloatingBackground/Flo
 import Burger from "../../modules/Assets/Burger";
 import Glasses from "../../modules/Assets/Glasses";
 import TelegramButton from "../../modules/TelegramButton/TelegramButton";
-import photo from "./zenkovadasha.png";
-const ZenkovaDasha = () => {
+import photo from "./dubkodasha.png";
+const DubkoDasha = () => {
+    // photo = 'https://i.pinimg.com/736x/1f/86/60/1f8660ca4dc4ea88ec93ca0f29f376dd.jpg'
+    //100 - 2
     return (
         <FloatingBackground
             bgcolors={["#B61210", "blue"]}
@@ -16,7 +18,7 @@ const ZenkovaDasha = () => {
             <div className={styles.container}>
                 <PhotoWithName
                     photoSrc={photo}
-                    name="Зенкова Дарья"
+                    name="Дубко Дарья"
                 />
                 <Felicitation
                     title="Заголовок"
@@ -34,4 +36,4 @@ const ZenkovaDasha = () => {
     );
 };
 
-export default ZenkovaDasha;
+export default DubkoDasha;

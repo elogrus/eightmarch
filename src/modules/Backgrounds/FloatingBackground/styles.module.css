@@ -31,6 +31,7 @@
     left: -13%;
     animation: raise2 9s linear infinite;
     animation-delay: -3s;
+    z-index: 10;
     transform: scale(0) rotate(310deg);
     filter: blur(-4px);
 }

@@ -3,20 +3,19 @@ import styles from "./styles.module.css";
 import PhotoWithName from "../../modules/PhotoWithName/PhotoWithName";
 import { Felicitation } from "../../modules/Felicitation";
 import FloatingBackground from "../../modules/Backgrounds/FloatingBackground/FloatingBackground";
-import Burger from "../../modules/Assets/Burger";
-import Glasses from "../../modules/Assets/Glasses";
-import TelegramButton from "../../modules/TelegramButton/TelegramButton";
-import photo from "./zenkovadasha.png";
-const ZenkovaDasha = () => {
+import photo from "./Vika.jpg";
+import ConstBook from "../../modules/Assets/ConstBook";
+import PoliticsGirl from "../../modules/Assets/PoliticsGirl";
+const Vika = () => {
     return (
         <FloatingBackground
-            bgcolors={["#B61210", "blue"]}
-            imgs={[Burger, Glasses]}
+            bgcolors={["#7474BF", "#348AC7"]}
+            imgs={[ConstBook, PoliticsGirl]}
             repeatCountImgs={Math.floor(window.innerWidth / 100) * 2}> 
             <div className={styles.container}>
                 <PhotoWithName
                     photoSrc={photo}
-                    name="Зенкова Дарья"
+                    name="Вика"
                 />
                 <Felicitation
                     title="Заголовок"
@@ -34,4 +33,4 @@ const ZenkovaDasha = () => {
     );
 };
 
-export default ZenkovaDasha;
+export default Vika;
