@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/eightmarch/static/css/main.ceb9d94f.css",
-    "main.js": "/eightmarch/static/js/main.db3700e9.js",
+    "main.css": "/eightmarch/static/css/main.cea2d63e.css",
+    "main.js": "/eightmarch/static/js/main.bf96d8ef.js",
     "static/js/453.7d450562.chunk.js": "/eightmarch/static/js/453.7d450562.chunk.js",
     "static/media/zenkovadasha.png": "/eightmarch/static/media/zenkovadasha.af97740c1889386dab50.png",
+    "static/media/Liza.png": "/eightmarch/static/media/Liza.8f414264ab3c5dbea110.png",
+    "static/media/dubkodasha.png": "/eightmarch/static/media/dubkodasha.08580827964fd06eecc3.png",
+    "static/media/AldohinaKatya.jpg": "/eightmarch/static/media/AldohinaKatya.0684213636a2466ec103.jpg",
+    "static/media/Vika.jpg": "/eightmarch/static/media/Vika.7edfeb29ee12a7218a4a.jpg",
+    "static/media/KatyaVasilyeva.jpg": "/eightmarch/static/media/KatyaVasilyeva.589f6de557858de08427.jpg",
     "index.html": "/eightmarch/index.html",
-    "main.ceb9d94f.css.map": "/eightmarch/static/css/main.ceb9d94f.css.map",
-    "main.db3700e9.js.map": "/eightmarch/static/js/main.db3700e9.js.map",
+    "main.cea2d63e.css.map": "/eightmarch/static/css/main.cea2d63e.css.map",
+    "main.bf96d8ef.js.map": "/eightmarch/static/js/main.bf96d8ef.js.map",
     "453.7d450562.chunk.js.map": "/eightmarch/static/js/453.7d450562.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb9d94f.css",
-    "static/js/main.db3700e9.js"
+    "static/css/main.cea2d63e.css",
+    "static/js/main.bf96d8ef.js"
   ]
 }
