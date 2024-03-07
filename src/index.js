@@ -68,8 +68,8 @@ const router = createHashRouter([
     },
     {
         path: "/sarvinoz",
-        errorElement: <Sarvinoz />,
-        element: <SokolovaDasha />,
+        errorElement: <Notfound />,
+        element: <Sarvinoz />,
     },
     {
         path: "/podarokk",
