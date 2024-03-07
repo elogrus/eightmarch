@@ -17,6 +17,11 @@ import Sarvinoz from "./postcards/Sarvinoz/Sarvinoz";
 import Redirect from "./routes/redirect";
 const router = createHashRouter([
     {
+        path: "/",
+        errorElement: <Notfound />,
+        element: <Notfound />,
+    },
+    {
         path: "/linkssss",
         errorElement: <Notfound />,
         element: <Root />,
@@ -59,6 +64,11 @@ const router = createHashRouter([
     {
         path: "/sokolovadasha",
         errorElement: <Notfound />,
+        element: <SokolovaDasha />,
+    },
+    {
+        path: "/sarvinoz",
+        errorElement: <Sarvinoz />,
         element: <SokolovaDasha />,
     },
     {

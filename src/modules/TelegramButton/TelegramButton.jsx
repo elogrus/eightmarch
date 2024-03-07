@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 const TelegramButton = ({
-    link = "#",
+    link = "http://t.me/aldhnbh_bot",
     text = "НАЖМИ НА МЕНЯ",
     textColor = "",
     bgcolor = "",
@@ -11,7 +11,7 @@ const TelegramButton = ({
     const [stateText,setStateText] = useState(text)
     const onClick = (e) => {
         setStateText('СЕКУНДОЧКУ...')
-        setTimeout(() => window.location.href = 'link', 1500)
+        setTimeout(() => window.location.replace(link), 1500)
     }
     return (
         <a

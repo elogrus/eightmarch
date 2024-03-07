@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Background from "../modules/Backgrounds/BaseBackground/BaseBackground";
 
 const Notfound = () => {
     return (
         <Background>
-            Такой страницы нет
-            <Link to={`/`}>go to root</Link>
+            <h1>Здесь ничего нет. Реально.</h1>
         </Background>
     );
 };
